@@ -25,10 +25,10 @@ def end_screen(win,elapsed_time,targets_pressed,clicks,restart_callback=None):
     
     accuracy_label=LABEL_FONT.render(f"Accuracy:{accuracy}%",1,"white")
  
-    win.blit(time_label,(get_middle(time_label),100))
-    win.blit(speed_label,(get_middle(speed_label),200))
-    win.blit(hits_label,(get_middle(hits_label),300))
-    win.blit(accuracy_label,(get_middle(time_label),400)) 
+    win.blit(time_label,(get_middle(time_label),50))
+    win.blit(speed_label,(get_middle(speed_label),150))
+    win.blit(hits_label,(get_middle(hits_label),250))
+    win.blit(accuracy_label,(get_middle(time_label),350)) 
     
     #Button SetUp
     button_text= BUTTON_FONT.render("Play Again?",1,"black")
